@@ -53,7 +53,7 @@ export default function DetectPage() {
 
     try {
       // Replace with your actual backend URL if different
-      const response = await fetch("http://127.0.0.1:5000/upload", {
+      const response = await fetch("https://plantdiseasebackend.onrender.com/upload", {
         method: "POST",
         body: formData,
       });
